@@ -1,0 +1,119 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "microsoft yahei";
+}
+.header{  /*网站头部*/
+	display: flex;
+	flex-direction: row;
+	/*row 横向  column 竖向  */
+	height: 40px;
+	width: 100%;
+	background-color:#f4f4f4;
+	opacity: 0.8;
+	align-content: center;
+	align-items: center;
+	position:fixed;
+	z-index: 9999;
+	top: 0;
+}
+.nav{     /*导航栏*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 40px;
+	width: 100%;
+	opacity: 0.9;
+	justify-content: flex-start;
+	z-index: 9998;
+}
+.aside-article{
+	display: flex;
+	flex-direction: row;
+}
+.aside{   /*侧边栏*/
+	display: flex;
+	flex-direction: column;
+	background-color: aquamarine;
+	width: 120px;
+	height: 100vh;
+	opacity: 0.9;
+	/* justify-content: center; */
+	padding: 8px;
+	align-items: center;
+	margin-top: 40px;
+	position: fixed;
+	left: 0;
+	z-index: 9997;
+}
+.article{ /*内容*/
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	margin-top: 40px;
+	margin-left: 136px;
+	width: 100vw;
+}
+.position-text{
+	display: flex;
+	flex-direction: rom;
+	align-items: center;
+	height: 30px;
+	width: 100%-0;
+	background-color: #E7E7E7;
+	padding-left: 8px;
+	color: dimgrey;
+}
+.position-image{
+	width: 28px;
+	height: 22px;
+	margin-right: 5px;
+}
+.footer{  /*底*/
+	display: flex;
+	flex-direction: column;
+	border-top: 2px solid #e9e9e9;
+	background-color: #FFFFFF;
+	height: 40px;
+	width:100vw-136px;
+	opacity: 0.8;
+	align-items: center;
+	justify-content: center;
+	margin-left: 136px;
+	color: dimgrey;
+}
+.background-images{
+	background-image: url(../img/background-img.gif);
+}
+.header-img{
+	width: 40px;
+	height: 40px;
+	
+}
+.aside-user-img{
+	width: 110px;
+	height: 110px;
+	margin-top: 8px;
+}
+.nav-a-text{
+	color: slategray;
+	margin-left: 20px;
+}
+.position-a-text{
+	color: slategray;
+	margin:0 10px;
+}
+.header-text{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+.main-images{
+	width: 80vw;
+	margin: 60px;
+}
+.about-me{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
