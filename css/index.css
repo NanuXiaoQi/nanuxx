@@ -1,0 +1,133 @@
+.overall {
+	width: 85%;
+	height: 65%;
+}
+
+.text-description {
+	width: 35%;
+	background-color: white;
+	align-items: flex-start;
+}
+
+.text-description .title {
+	border-left: 3px solid #121212;
+	height: 40px;
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20%;
+	margin-left: 10%;
+}
+
+.text-description p {
+	width: 80%;
+	margin-top: 30px;
+	font-size: 14px;
+	font-style: italic;
+	color: #343434;
+	margin-left: 10%;
+}
+
+.text-description a {
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #121212;
+	border: 1px solid #343434;
+	padding: 11px 14px;
+	margin-left: 10%;
+	margin-top: 10px;
+	
+}
+
+.text-description a:hover {
+	color: #f78b26;
+	border: 1px solid #f78b26;
+}
+
+.image-description {
+	width: 35%;
+	background-color: #FFFFFF;
+}
+
+.image-description img {
+	width: 100%;
+	height: 100%;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+.image-description img:hover {
+	box-shadow:2px 2px 3px #aaaaaa;
+	margin-top: -2px;
+}
+
+.overall nav {
+	width: 23%;
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+	margin-left: 7%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.overall nav ul {
+	padding-inline-start: 0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	width: 100%;
+	height: 55%;
+	justify-content: space-between;
+}
+
+.overall nav ul a {
+	list-style-type: none;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.overall nav ul a li span {
+	font-weight: 600;
+	color: #121212;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+.overall nav ul a li span:hover {
+	color: #f78b26;
+}
+
+.overall nav a {
+	height: 32%;
+	width: 100%;
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.overall nav a img {
+	height: 100%;
+}
+
+#title {
+	font-weight: 600;
+	color: #121212;
+	margin-top: -21px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+#title:hover {
+	color: #F78B26;
+}
