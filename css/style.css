@@ -131,8 +131,8 @@ header nav a:hover {
 }
 
 .image-description img:hover {
-	box-shadow: 2px 2px 3px #aaaaaa;
-	margin-top: -2px;
+	box-shadow: 0 6px 4px rgba(0,25,0,0.25);
+	margin-top: -6px;
 }
 
 .overall nav {
@@ -144,18 +144,13 @@ header nav a:hover {
 	align-items: center;
 }
 
-.overall nav ul {
-	padding-inline-start: 0;
-	margin-block-start: 0;
-	margin-block-end: 0;
-	margin-inline-start: 0;
-	list-style-type: none;
+.overall nav div {
 	width: 100%;
 	height: 55%;
 	justify-content: space-between;
 }
 
-.overall nav ul a {
+.overall nav div a {
 	list-style-type: none;
 	height: 20%;
 	display: flex;
@@ -165,8 +160,8 @@ header nav a:hover {
 	text-decoration: none;
 }
 
-.overall nav ul a li span {
-	font-weight: 600;
+.overall nav div a {
+	font-weight: 500;
 	color: #121212;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -174,7 +169,7 @@ header nav a:hover {
 	-ms-transition: 0.5s all;
 }
 
-.overall nav ul a li span:hover {
+.overall nav div a:hover {
 	color: #f78b26;
 }
 
